@@ -7,7 +7,7 @@ public class AnimeTest01 {
         Anime anime = new Anime();
       //  anime.init("Vascão", "FUTEBOL E REGATAS", 124);
         anime.init("Vascão", "FUTEBOL E REGATAS", 124, "CAMPEÃO");
-        anime.setGender("CAMPEÃO");
+        anime.setGender("Male");
         anime.print();
     }
 }

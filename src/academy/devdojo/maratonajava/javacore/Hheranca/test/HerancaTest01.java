@@ -8,9 +8,9 @@ public class HerancaTest01 {
     public static void main(String[] args) {
         Endereco endereco = new Endereco();
         endereco.setRua("Rua 3");
-        endereco.setCep("21755271");
+        endereco.setCep("12345678");
         Pessoa pessoa = new Pessoa("Monteiro");
-        pessoa.setCpf("16617293715");
+        pessoa.setCpf("12345678910");
         pessoa.setEndereco(endereco);
         pessoa.imprime();
         System.out.println("--------------------------");
