@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../projetoBarAlfa/ProjetoBar/ProjetoBar.iml" filepath="$PROJECT_DIR$/../projetoBarAlfa/ProjetoBar/ProjetoBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../projetoBarAlfa/capGemini/capGemini.iml" filepath="$PROJECT_DIR$/../projetoBarAlfa/capGemini/capGemini.iml" />
       <module fileurl="file://$PROJECT_DIR$/maratona-java.iml" filepath="$PROJECT_DIR$/maratona-java.iml" />
     </modules>
   </component>
