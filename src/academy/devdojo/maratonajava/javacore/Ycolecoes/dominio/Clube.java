@@ -36,7 +36,7 @@ public class Clube implements Comparable<Clube> {
 
     @Override
     public String toString() {
-        return "Clube{" +
+        return "Club{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", valor=" + valor +

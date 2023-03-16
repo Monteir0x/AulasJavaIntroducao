@@ -15,7 +15,7 @@ public class IteratorTest01 {
         clubes.add(new Clube(76L, "Fluminense", 123.4, 11));
         clubes.add(new Clube(13L, "América RJ", 1.4, 0));
 
-        //  Iterator<Clube> clubeIterator = clubes.iterator();
+        //  Iterator<Club> clubeIterator = clubes.iterator();
         //  while(clubeIterator.hasNext()){
         //      if (clubeIterator.next().getJogadores() == 0){
         //          clubeIterator.remove();
