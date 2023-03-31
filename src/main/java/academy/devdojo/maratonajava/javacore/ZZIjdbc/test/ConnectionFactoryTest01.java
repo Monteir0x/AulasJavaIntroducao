@@ -9,7 +9,7 @@ import java.util.List;
 @Log4j2
 public class ConnectionFactoryTest01 {
     public static void main(String[] args) {
-        // Producer producer = Producer.builder().name("Studio Deen").build();
+        //Producer producer = Producer.builder().name("Studio Deen").build();
         // Producer producerToUpdate = Producer.builder().id(1).name("MADHOUSE").build();
         // ProducerService.save(producer);
         // ProducerService.delete(1);
@@ -23,7 +23,11 @@ public class ConnectionFactoryTest01 {
         // List<Producer> producers = ProducerService.findByNameAndUpdateToUpperCase("Deen");
         //log.info(producers);
         //ProducerService.findByNameAndDelete("A-1 Pictures");
-
+       // List<Producer> producers = ProducerService.findByNamePreparedStatement("Bo");
+       // log.info("Producers found '{}'", producers);
+        //ProducerService.updatePreparedStatement(producerToUpdate);
+        List<Producer> producers = ProducerService.findByNameCallableStatement("BO");
+        log.info("Producers found '{}'", producers);
 
     }
 }
