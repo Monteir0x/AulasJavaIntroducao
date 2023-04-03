@@ -86,12 +86,11 @@ public class ProducerRepository {
     }
 
     private static PreparedStatement preparedStatementUpdated(Connection conn, Producer producer) throws SQLException {
-        String sql = "UPDATE `anime_store`.`producer` SET `name`= ? WHERE  `id`= ?;".formatted(producer.getName(), producer.getId());
+        String sql = "UPDATE `anime_store`.`producer` SET `name`= ? WHERE  `id`= ?;";
         PreparedStatement ps = conn.prepareStatement(sql);
         ps.setString(1, producer.getName());
         ps.setInt(1, producer.getId());
         return ps;
-
     }
 
     public static List<Producer> findAll() {
